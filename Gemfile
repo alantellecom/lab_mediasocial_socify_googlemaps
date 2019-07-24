@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '~> 2.3.1'
+ruby '~> 2.6.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.2'
@@ -16,9 +16,10 @@ gem 'merit'
 gem 'jquery-atwho-rails'
 
 # Use twitter bootstrap sass
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
+
 
 group :development do
   gem 'spring'
@@ -31,7 +32,8 @@ end
 
 group :development, :test do
   gem 'puma'
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.6'
+  
 end
 
 group :production do
