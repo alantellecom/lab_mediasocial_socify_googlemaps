@@ -5,3 +5,4 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Router.create(user_id: '1', name: 'pedalada lagoa', longitude: '-403.21598768', latitude: '-22.96573321')

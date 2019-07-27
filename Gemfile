@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '~> 2.6.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.0.2'
+gem 'rails', '5.2.3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0'
@@ -19,6 +19,10 @@ gem 'jquery-atwho-rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
+
+gem 'coffee-rails', '~> 4.2'
+gem 'turbolinks', '~> 5'
+gem 'gmaps4rails'
 
 
 group :development do

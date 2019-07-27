@@ -13,6 +13,10 @@
 //= require jquery
 //= require jquery.atwho
 //= require jquery_ujs
+
+//= require turbolinks
+//= require gmaps/google
+
 //= require bootstrap
 //= require bindWithDelay
 //= require moment.min

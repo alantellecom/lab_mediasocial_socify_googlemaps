@@ -1,0 +1,3 @@
+class Router < ApplicationRecord
+    belongs_to :user
+end
