@@ -24,6 +24,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'gmaps4rails'
 
+gem 'postmark-rails'
+
 
 group :development do
   gem 'spring'
@@ -41,7 +43,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+ # gem 'pg'
   gem 'unicorn'
   gem 'rails_12factor'
   gem 'fog'

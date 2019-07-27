@@ -368,8 +368,12 @@ GEM
     os (1.0.1)
     ovirt-engine-sdk (4.3.0)
       json (>= 1, < 3)
-    pg (1.1.4)
     populator (1.0.0)
+    postmark (1.15.0)
+      json
+    postmark-rails (0.19.0)
+      actionmailer (>= 3.0.0)
+      postmark (~> 1.15.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -542,8 +546,8 @@ DEPENDENCIES
   jquery-rails
   letter_opener
   merit
-  pg
   populator
+  postmark-rails
   public_activity
   puma
   rails (= 5.2.3)
