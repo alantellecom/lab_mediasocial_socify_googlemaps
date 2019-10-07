@@ -26,4 +26,9 @@ class CommentsController < ApplicationController
     @commentable_type = params[:commentable_type].classify
     @commentable = @commentable_type.constantize.find(params[:commentable_id])
   end
+
+  private
+  def event_params
+    params.require(:comment).permit(:comment_text)
+  end
 end

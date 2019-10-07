@@ -1,4 +1,4 @@
-class CreateRouters < ActiveRecord::Migration[5.0]
+class CreateRouters < ActiveRecord::Migration[4.2]
   def change
     create_table :routers do |t|
       t.float :latitude
