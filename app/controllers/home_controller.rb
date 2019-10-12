@@ -11,7 +11,7 @@ class HomeController < ApplicationController
     @friends = @user.all_following.unshift(@user)
     @activities = PublicActivity::Activity.where(owner_id: @friends).order(created_at: :desc).paginate(page: params[:page], per_page: 10)
     load_routers
-    @mapa_api_key =Rails.application.credentials[Rails.env.to_sym][:mapa_api_key]
+    @mapa_api_key =Rails.application.credentials[:mapa_api_key]
   end
 
   def front
